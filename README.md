@@ -38,11 +38,11 @@ The overhaul of Cloud POS business process and data access to .Net and EF is com
 
 Other than this area extending the Cloud POS Api to allow customers to integrate line of business applications will be the only other priority. 
 
-    Customer Benefits & New Functionality
-        Not dependant on Citrus-Lime to extend Cloud POS functionality and reporting so our resources are not a limiting factor on our customers ambitions.
+* Customer Benefits & New Functionality
+    * Not dependant on Citrus-Lime to extend Cloud POS functionality and reporting so our resources are not a limiting factor on our customers ambitions.
 
-    Citrus-Lime Benefits
-        Not dependant on Citrus-Lime to extend Cloud POS functionality and reporting.
+* Citrus-Lime Benefits
+    * Not dependant on Citrus-Lime to extend Cloud POS functionality and reporting.
 
 ## The Future
 
@@ -67,19 +67,19 @@ The checkout via Vue.Js & WebApi - with fully test coverage and with each stage 
 All e-commerce team product and microservice releases to be fully automated. 
 
 Overhaul F&F to use C# via .Net and EF. 
-    Customer Benefits & New Functionality
-        The caching must be transparent to the end user and our customer. For example prices and stock levels most update on F&F pages within minutes. 
+* Customer Benefits & New Functionality
+    * The caching must be transparent to the end user and our customer. For example prices and stock levels most update on F&F pages within minutes. 
 
-        The want to greatly improve performance this leads to more sales on mobile phones, no slow downs when sites are busy and high Google rankings both thru natural search and Google Adverts.
+    * The want to greatly improve performance this leads to more sales on mobile phones, no slow downs when sites are busy and high Google rankings both thru natural search and Google Adverts.
 
-        We want to allow per store "instock" filtering.
+    * We want to allow per store "instock" filtering.
 
-    Citrus-Lime Benefits & New Functionality
-        Removal of old and duplicated unsupportable and complex code. 
-        Running C# and .Net.
-        We want to separate the core query which shall remain uncached, but pluck properties (e.g. price, stock information and images/descriptions) for cached data. 
+* Citrus-Lime Benefits & New Functionality
+    * Removal of old and duplicated unsupportable and complex code. 
+    * Running C# and .Net.
+    * We want to separate the core query which shall remain uncached, but pluck properties (e.g. price, stock information and images/descriptions) for cached data. 
 
-        NOTE We will use output cache on product and F&F pages with short cache times to prevent 1,000 users running the same DB query simultaneously. 
+NOTE We will use output cache on product and F&F pages with short cache times to prevent 1,000 users running the same DB query simultaneously. 
 
 
 
