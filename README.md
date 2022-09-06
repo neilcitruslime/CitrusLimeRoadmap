@@ -27,14 +27,14 @@ Applications will have no local 'state' - e.g. nothing which is part of the web 
 
 The overhaul of Cloud POS business process and data access to .Net and EF is completed. We wish to implement a new user interface and server side Api layer. We will first migrate the POS, and then migrate the back office platform. 
 
-    *Customer Benefits & New Functionality*
-        The functionality in Cloud POS is already the best available to a retailer in a Cloud based POS worldwide. The user interface is competitive with other POS products, but we want to create a 'best in class' user experience compared to other web applications outside of the POS space. 
-        The development is being conducted with a 'mobile first' approach, allowing a first class user experience on iPads. 
-        A user interface tasks will be targeted to be four times faster than they are today. This will lead to better user satisfaction and significant staff cost savings for store owners. 
+* Customer Benefits & New Functionality
+  * The functionality in Cloud POS is already the best available to a retailer in a Cloud based POS worldwide. The user interface is competitive with other POS products, but we want to create a 'best in class' user experience compared to other web applications outside of the POS space. 
+  * The development is being conducted with a 'mobile first' approach, allowing a first class user experience on iPads. 
+  * A user interface tasks will be targeted to be four times faster than they are today. This will lead to better user satisfaction and significant staff cost savings for store owners. 
 
-    Citrus-Lime Benefits
-        The user of .Net allow us to deploy the POS and back office as separate containerized applications. This will allow us to cluster our deployments in a more interesting and agile manner. 
-        The move to .Net will allow the use of EF 7 which has significant performance improvements for database access.
+Citrus-Lime Benefits
+The user of .Net allow us to deploy the POS and back office as separate containerized applications. This will allow us to cluster our deployments in a more interesting and agile manner. 
+The move to .Net will allow the use of EF 7 which has significant performance improvements for database access.
 
 Other than this area extending the Cloud POS Api to allow customers to integrate line of business applications will be the only other priority. 
 
