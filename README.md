@@ -25,17 +25,32 @@ Applications will have no local 'state' - e.g. nothing which is part of the web 
 
 # Cloud POS
 
-The overhaul of Cloud POS business process and data access to .Net and EF is completed. We wish to implement a new userinterface and server side Api layer. Th
+The overhaul of Cloud POS business process and data access to .Net and EF is completed. We wish to implement a new userinterface and server side Api layer. We will first migrate the POS, and then migrate the backoffice platform. 
 
     Customer Benefits & New Functionality
         The functionality in Cloud POS is already the best available to a retailer in a Cloud based POS worldwide. The user interface is competitive with other POS products, but we want to create a 'best in class' user experience compared to other web applications outside of the POS space. 
-        The development is being conducted with a 'mobile first' approach, allowing  
+        The development is being conducted with a 'mobile first' approach, allowing a first class user experience on iPads. 
+        A user interface tasks will be targetted to be four times faster than they are today. This will lead to better user satisfaction and significant staff cost savings for store owners. 
+
+    Citrus-Lime Benefits
+        The user of .Net allow us to deploy the POS and back office as seperate containerised applications. This will allow us to cluster our deployments in a more interesting and agile manner. 
+        The move to .Net will allow the use of EF 7 which has significant performance improvements for database access.
 
 Other than this area extending the Cloud POS Api to allow customers to integrate line of business applications will be the only other priority. 
+
+    Customer Benefits & New Functionality
+        Not dependant on Citrus-Lime to extend Cloud POS functionality and reporting so our resources are not a limiting factor on our customers ambitions.
+
+    Citrus-Lime Benefits
+        Not dependant on Citrus-Lime to extend Cloud POS functionality and reporting.
+
+##The Future
 
 One the user interface overhaul is completed we will extend both the product and API to allow support for multiple bin locations within each stock locations. We are working with a number of third parties on integrating enhanced picking software and scanner systems in the warehouse environment, we will not be implementing such devices/software natively. 
 
 We will improve the despatching processes and workflow at the pack bench. 
+
+We will integrate electronic purchase orders & new courier suppliers agreesively. 
 
 # Roadmap Ecommerce
 The core ecommerce product has for many years been neglected and starved of investment. This been a logical and required decision, Customer Rewards, Cloud MT and a SIM product fit for international markets and decoupled from the Citrus-Lime database required resources to be allocated elsewhere and have proved a great success. Cloud MT, Cloud POS and Rewards allowed the company to embraced a move from .Net Framework a legacy product which is rarely updated to a modern platform using .Net (formly Core) a platform with an exciting future. The cost of this however has been that ecommerce functionality has been extended 'hacked in' and this has resulted in an unstructured product which needs overhaul. 
