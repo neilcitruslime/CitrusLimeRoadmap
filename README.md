@@ -63,6 +63,10 @@ We will improve the despatching processes and workflow at the pack bench.
 
 We will integrate electronic purchase orders & new courier suppliers aggressively. 
 
+## Bits
+
+Integrate WorldPay Chip & Pin solution.
+
 # Roadmap Ecommerce
 
 The core e-commerce product has for many years been neglected and starved of investment. This been a logical and required decision, Customer Rewards, Cloud MT and a SIM product fit for international markets and decoupled from the Citrus-Lime database required resources to be allocated elsewhere and have proved a great success. Cloud MT, Cloud POS and Rewards allowed the company to embraced a move from .Net Framework a legacy product which is rarely updated to a modern platform using .Net a platform with an exciting future. The cost of this however has been that e-commerce functionality has been extended 'hacked in' and this has resulted in an unstructured product which needs overhaul. 
