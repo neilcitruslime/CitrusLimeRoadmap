@@ -3,7 +3,7 @@ Citrus-Lime High Level Development & Infrastructure Goals
 
 # High Level Strategy
 
-To succeed in our industry the Cloud based tech industry, ultimately the first company to deliver functionality to a specific vertical market wins. Momentum is vital in all things. That said the utterly wild unstructured approach of the past creates software which is difficult to manage and scale. A balance is required. 
+To succeed in our industry the Cloud based tech industry, ultimately the first company to deliver functionality to a specific vertical market wins. Momentum is vital in all things. That said the pace at all cost approach of the early days of Cloud POS creates software which is difficult to manage and scale. A balance is required one which we are currently achieving. 
 
 We want to create software which is simple, easy to understand and performs well. Performance (speed) should always be analyzed on areas of the system which see high user throughput, this makes the product popular with customers and leads to less infrastructure problems with servers slowing down or applications crashing as they are starved of resource. Code which performs well is essential. This also helps us keep our pricing low by requiring less infrastructure.
 
@@ -128,5 +128,5 @@ We will progress to move to a full Razor/Vue.Js driven approach which is entirel
 
 ## Bits
 
-Customer Rewards Reporting
+Customer Rewards Reporting  
 
